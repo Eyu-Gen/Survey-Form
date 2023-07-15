@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  justify-content: center;
+  background-color: #000000;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+}
+
+.greeting {
+  font-style: bold;
+}
+
+.hero {
+position: relative;
+height: 965px;
+border: 1px solid red;
+}
+
+.image{
+  position: relative;
+  /* top:0px; */
+  object-fit: cover;
+  width: 100vw;
+  /* height: 100%; */
+  opacity: 0.5;
+}
+
+.container {
+  /* margin-top: 2em; */
+  /* margin-bottom: 2em;  */
+  position: absolute;
+  top:15px;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 5px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  background-color: RGB(0,0,0,0.7);
+  z-index: 1;
+}
+
+.form {
+  width: 90%;
+  margin: 5%;
+  color: #fff;
+}
+
+.details {
+  width: 100%;
+  border-radius: 5px;
+  height: 40px;
+}
+
+button {
+  background-color: rgb(50, 255, 50);
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover{
+  background-color: #fff;
+  transition: 0.2s ease-in;
+}
+
+input{
+  border: none;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  background-color:#000000;
+  align-items: center;
+  justify-content: space-evenly;
+  /* position: relative; */
+  width: 100%;
+  /* height: 50vh; */
+  border: 1px solid red;
+  color: white;
+}
+
+.footerwrapper{
+  width: 90%;
+  border: 1px solid red;
+  /* position: absolute;
+  top: 0; */
+  /* height: 70%; */
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-around;
+}
+
+h2{
+  text-decoration: underline;
+}
+
+.socialmedia{
+  width: 40%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  
+  .team{
+  width: 40%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a,li{
+  text-decoration: none;
+  color: white;
+  font-style: italic;
+}
