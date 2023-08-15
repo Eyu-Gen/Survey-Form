@@ -24,21 +24,16 @@
 .hero {
 position: relative;
 height: 965px;
-border: 1px solid red;
 }
 
 .image{
   position: relative;
-  /* top:0px; */
   object-fit: cover;
   width: 100vw;
-  /* height: 100%; */
   opacity: 0.5;
 }
 
 .container {
-  /* margin-top: 2em; */
-  /* margin-bottom: 2em;  */
   position: absolute;
   top:15px;
   left: 50%;
@@ -85,21 +80,13 @@ input{
   background-color:#000000;
   align-items: center;
   justify-content: space-evenly;
-  /* position: relative; */
   width: 100%;
-  /* height: 50vh; */
-  border: 1px solid red;
   color: white;
 }
 
 .footerwrapper{
   width: 90%;
-  border: 1px solid red;
-  /* position: absolute;
-  top: 0; */
-  /* height: 70%; */
   display: flex;
-  /* align-items: center; */
   justify-content: space-around;
 }
 
